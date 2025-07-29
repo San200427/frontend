@@ -6,7 +6,7 @@ function App() {
   const [error, setError] = useState('');
 
   // Replace this with your actual Render backend URL once deployed
-  const BACKEND_URL = 'https://your-backend-name.onrender.com';
+  const BACKEND_URL = 'https://backend-s7a3.onrender.com/';
 
   const fetchFromBackend = async () => {
     setLoading(true);
